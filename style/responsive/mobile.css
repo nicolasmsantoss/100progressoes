@@ -1,0 +1,118 @@
+/* media celular.css */
+@media (max-width: 767px) {
+    /* Ajustes para celular: transforme tudo em coluna única */
+
+    html{
+        font-size: 10px;
+    }
+
+    .width-main-1{
+        width: 85%;
+    }
+
+    .main-1 h1{
+        margin-top: 15%;
+    }
+
+    .text-main-1{
+        gap: 2%;
+    }
+
+    .main-1-bottom{
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .preco-main-1{
+        width: 50%;
+    }
+
+    .main-1-bottom a{
+        width: 60%;
+        margin-top: 5%;
+        line-height:  0.97;
+        padding: 1rem 2rem;
+    }
+
+    .cards-main-2{
+        /* flex-direction: column; */
+    }
+
+    .cards-main-3{
+        flex-direction: column;
+    }
+
+    .width-main-3{
+        width: 100%;
+    }
+    .card-main-3{
+        margin: 0;
+        margin-bottom: 4%;
+    }
+
+    .card-main-5{
+        border: solid 1.5px #FDC700;
+    }
+    .main-5 a, .btn-buy{
+        padding: 1rem 4rem;
+    }
+
+    .width-main-6{
+        width: 100%;
+    }
+
+    .container-main-6{
+        width: 70%;
+    }
+
+    .bonus{
+        width: 50%;
+    }
+
+    .cards-main-7{
+        flex-direction: column;
+    }
+
+
+    .card-main-7{
+        padding: 1rem;
+        width: 45%;
+        margin-bottom: 4%;
+    }
+
+    .depoimentos{
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .depoimentos img{
+        width: 60%;
+        margin-bottom: 5%;
+    }
+
+    .cards-main-8{
+        flex-direction: column;
+    }
+
+    .errado-main-8, .certo-main-8{
+        width: 60%;
+        font-size: 1.125rem;
+    }
+
+    .main-9 h2{
+        width: 90%;
+    }
+
+    .mid-main-9 span{
+        font-size: 1.5rem;
+    }
+
+    .preco-main-9 p{
+        font-size: 2rem;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 0.75rem
+    }
+}

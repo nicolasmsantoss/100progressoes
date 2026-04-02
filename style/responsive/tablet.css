@@ -1,0 +1,29 @@
+@media (max-width: 1023px) {
+    /* Ajustes para tablet: reduza larguras fixas para 90% ou 100% */
+    /* Primeira seção */
+
+    html {
+        font-size: 16px; /* Ajuste fontes para melhor leitura no toque */
+    }
+
+    .width-main-1{
+        width: 70%;
+    }
+
+    .cards-main-3{
+        flex-wrap: wrap;
+    }
+
+    .card-main-3{
+        margin-top: 3%;
+    }
+    
+    .cards-main-7{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .card-main-7{
+        margin-top: 2%;
+    }
+}
