@@ -779,6 +779,12 @@ h3{
     opacity: 0.8;
 }
 
+footer hr{
+    color: white;
+    background-color: white;
+    border: solid 2px white;
+}
+
 footer{
     display: flex;
     width: 100%;

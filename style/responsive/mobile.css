@@ -18,6 +18,10 @@
         gap: 2%;
     }
 
+    .main-1 p{
+        width: 80%;
+    }
+
     .main-1-bottom{
         flex-direction: column;
         gap: 10%;
@@ -38,6 +42,10 @@
         /* flex-direction: column; */
     }
 
+    .card-main-2{
+        width: 50%;
+    }
+
     .cards-main-3{
         flex-direction: column;
     }
@@ -45,7 +53,9 @@
     .width-main-3{
         width: 100%;
     }
+
     .card-main-3{
+        width: 80%;
         margin: 0;
         margin-bottom: 4%;
     }
